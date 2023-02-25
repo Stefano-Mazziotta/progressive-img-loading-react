@@ -1,0 +1,22 @@
+body{
+  background-color: black;
+  color: white;
+}
+
+.App{
+  max-width: 1024px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.loading {
+  filter: blur(5px);
+  clip-path: inset();
+}
+
+.loaded {
+  filter: blur(0px);
+  transition: filter .3s linear;
+}
+
